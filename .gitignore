@@ -1,0 +1,11 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# added for this project:
+
+# bc its blogdown site:
+blogdown
+# bc i'm using netlify
+public
