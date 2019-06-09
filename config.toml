@@ -14,6 +14,10 @@ baseurl = "https://www.corianne.io/"
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
 copyright = "&copy; 1980s-2019"
+theme = "hugo-academic"
+enableEmoji = true
+footnotereturnlinkcontents = "<sup>^</sup>"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
@@ -26,7 +30,6 @@ disqusShortname = ""
 ############################
 
 # Name of Academic theme folder in `themes/`.
-theme = "hugo-academic"
 
 # Get last modified date for content from Git?
 enableGitInfo = false
@@ -37,9 +40,6 @@ hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
 
 paginate = 10  # Number of items per page in paginated lists.
-enableEmoji = true
-footnotereturnlinkcontents = "<sup>^</sup>"
-ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [outputs]
   home = [ "HTML", "RSS", "JSON" ]
@@ -53,6 +53,68 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 	latexDashes = true
   extensions = ["backslashLineBreak"]
 
+[params]
+  name = "Corianne Baker"
+  description = "A site to display my repertoiR"
+  role = "Data lover, visualizer, forever learner."
+#  organization = ""
+#  organization_url = ""
+#  avatar = "aph-salt-spring-zoom.jpg"
+  email = "corianne@me.com"
+#  address = ""
+#  office_hours = ""
+#  phone = ""
+#  skype = ""
+#  telegram = ""
+  twitter = "yrbffanna"
+  github = "bffcorianne"
+
+  # Enable Keybase in Contact section by entering your keybase.io username.
+  keybase = "corianne"
+
+  # Date format (refer to Go's date format: http://flippinggodateformat.com )
+  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+  date_format = "Mon, Jan 2, 2006"
+
+  # Enable global LaTeX math rendering?
+  #   If false, you can enable it locally on a per page basis.
+  math = false
+
+  # Social/Academic Networking
+  #
+  # Icon pack "fa" includes the following social network icons:
+  #
+  #   twitter, weibo, linkedin, github, facebook, pinterest, google-plus,
+  #   youtube, instagram, soundcloud
+  #
+  #   For email icon, use "fa" icon pack, "envelope" icon, and
+  #   "mailto:your@email.com" as the link.
+  #
+  #   Full list: https://fortawesome.github.io/Font-Awesome/icons/
+  #
+  # Icon pack "ai" includes the following academic network icons:
+  #
+  #   google-scholar, arxiv, orcid, researchgate, mendeley
+  #
+  #   Full list: https://jpswalsh.github.io/academicons/
+  
+
+ 
+  [[params.social]]
+    icon = "github"
+    icon_pack = "fa"
+    link = "//github.com/bffcorianne"
+
+  [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fa"
+    link = "//linkedin.com/in/coriannebaker/"
+  
+  [[params.social]]
+    icon = "twitter"
+    icon_pack = "fa"
+    link = "//twitter.com/yrbffcorianne"
+
 [imaging]
   resampleFilter = "lanczos"
   quality = 90
@@ -62,5 +124,39 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 [taxonomies]
   tag = "tags"
   category = "categories"
-  publication_type = "publication_types"
+#  publication_type = "publication_types"
   author = "authors"
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+## set up menu links
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+[[menu.main]]
+  name = "Home"
+  url = "#about"
+  weight = 1
+
+[[menu.main]]
+  name = "Posts"
+  url = "#posts"
+  weight = 3
+
+[[menu.main]]
+  name = "Talks & Workshops"
+  url = "#talks"
+  weight = 4
+
+[[menu.main]]
+  name = "Teaching"
+  url = "#teaching"
+  weight = 5
+
+[[menu.main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 6
