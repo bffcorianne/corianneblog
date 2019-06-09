@@ -1,24 +1,22 @@
-# Configuration of Academic
 # Documentation: https://sourcethemes.com/academic/
 #
-# This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
+# toml syntax: https://learnxinyminutes.com/docs/toml/
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
-# Title of your site
+# Site title, upper left title bar
 title = "CORIANNE BAKER"
 
-# The URL of your site.
-# End your URL with a `/` trailing slash, e.g. `https://example.com/`.
+# site URL
 baseurl = "https://www.corianne.io/"
 
-# Enter a copyright notice to display in the site footer.
+# copyright in footer. copyright symbol: &copy; 
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
 copyright = "&copy; 1980s-2019"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
 
-# Enable comments by entering your Disqus shortname
+# Comments section
 disqusShortname = ""
 
 ############################
@@ -26,41 +24,47 @@ disqusShortname = ""
 ############################
 
 # Name of Academic theme folder in `themes/`.
-theme = "hugo-academic"
+  theme = "hugo-academic"
 
-# Get last modified date for content from Git?
-enableGitInfo = false
+# last modified date from git.
+  enableGitInfo = false
 
-# Default language to use (if you setup multilingual support)
-defaultContentLanguage = "en"
-hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
-defaultContentLanguageInSubdir = false
-
-paginate = 10  # Number of items per page in paginated lists.
-enableEmoji = true
-footnotereturnlinkcontents = "<sup>^</sup>"
-ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+# Default language to use multilingual. i don't have multilingual, set to 
+  defaultContentLanguage = "en"
+  hasCJKLanguage = false 
+  defaultContentLanguageInSubdir = false
+  
+  paginate = 10  # Number of items per page in paginated lists.
+  enableEmoji = true
+  footnotereturnlinkcontents = "<sup>^</sup>"
+  ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [outputs]
-home = [ "HTML", "RSS", "JSON" ]
-section = [ "HTML", "RSS" ]
+#  home = [ "HTML", "RSS", "JSON" ]
+#  section = [ "HTML", "RSS" ]
+#  below is from Alison Presmanes Hill 
+  home = [ "HTML", "CSS", "RSS" ]
+  section = [ "HTML", "RSS" ]
+  taxonomy = [ "HTML", "RSS" ]
+  taxonomyTerm = [ "HTML", "RSS" ]
+
 
 # Configure BlackFriday Markdown rendering.
 #   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
 [blackfriday]
-hrefTargetBlank = true  # `true` opens external links in a new tab. See https://github.com/gohugoio/hugo/issues/2424
-angledQuotes = false
-latexDashes = true
-extensions = ["backslashLineBreak"]
+  hrefTargetBlank = true  # `true` opens external links in a new tab. See https://github.com/gohugoio/hugo/issues/2424
+  angledQuotes = false
+  latexDashes = true
+  extensions = ["backslashLineBreak"]
 
 [imaging]
-resampleFilter = "lanczos"
-quality = 90
-anchor = "smart"  # Anchor for cropping. Options include Smart and Center.
+  resampleFilter = "lanczos"
+  quality = 90
+  anchor = "smart"  # Anchor for cropping. Options include Smart and Center.
 
 # Taxonomies.
 [taxonomies]
-tag = "tags"
-category = "categories"
-publication_type = "publication_types"
-author = "authors"
+  tag = "tags"
+  category = "categories"
+  publication_type = "publication_types"
+#  author = "authors"
