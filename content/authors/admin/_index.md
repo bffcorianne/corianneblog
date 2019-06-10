@@ -21,7 +21,7 @@ name: Corianne Baker
 #organizations:
 #- name: Stanford University
 #  url: ""
-role: Professor of Artificial Intelligence
+role: 
 social:
 - icon: envelope
   icon_pack: fas
@@ -44,6 +44,6 @@ superuser: true
 #- Visitors
 ---
 
-Hi! I'm Corianne. I'm a data lover not a fighter, visualize all the things, and former roller derby athlete. 
+I'm a data lover not a fighter, visualize all the things, and former roller derby athlete. 
 
 I'm firmly rooted in curiousity and finding creative solutions to complicated problems. 

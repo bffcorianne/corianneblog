@@ -146,10 +146,10 @@ paginate = 10  # Number of items per page in paginated lists.
   url = "#posts"
   weight = 3
 
-[[menu.main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 5
+# [[menu.main]]
+#  name = "Projects"
+#  url = "#projects"
+#  weight = 5
 
 [[menu.main]]
   name = "Contact"
