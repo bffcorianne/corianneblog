@@ -5,7 +5,7 @@
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # Title of your site
-title = "CORIANNE BAKER"
+title = "CORIANNE BAKER                                                                                                                                                                      "
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
@@ -147,13 +147,8 @@ paginate = 10  # Number of items per page in paginated lists.
   weight = 3
 
 [[menu.main]]
-  name = "Talks & Workshops"
-  url = "#talks"
-  weight = 4
-
-[[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
+  name = "Projects"
+  url = "#projects"
   weight = 5
 
 [[menu.main]]
