@@ -55,7 +55,7 @@ paginate = 10  # Number of items per page in paginated lists.
 
 [params]
   name = "Corianne Baker"
-  description = "A site to display my repertoiR"
+  description = "A site to display my repertoiR. "
   role = "Data lover, visualizer, forever learner."
 #  organization = ""
 #  organization_url = ""
