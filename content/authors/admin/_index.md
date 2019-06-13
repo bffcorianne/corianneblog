@@ -45,6 +45,7 @@ superuser: true
 #- Visitors
 ---
 
-I'm a data lover not a fighter, visualize all the things, and former roller derby athlete. 
+I'm a data lover and former roller derby athlete. Creative and curious, I'm a pro-dot connector. 
 
-I'm firmly rooted in curiousity and finding creative solutions to complicated problems. 
+_"Data justice unicorn."_ --[Virginia Eubanks](https://virginia-eubanks.com)  
+_"Great hair!"_ --[Representative Ayanna Pressley](https://pressley.house.gov)
