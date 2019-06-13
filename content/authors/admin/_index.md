@@ -4,9 +4,9 @@ authors:
 bio: I'm a data-lover, former roller derby athlete, all around 
 # education:
 #  courses:
-#  - course: PhD in Artificial Intelligence
-#    institution: Stanford University
-#    year: 2012
+#  - course: 
+#    institution: 
+#    year: 
 
 email: ""
 
