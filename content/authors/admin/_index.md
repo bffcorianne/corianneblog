@@ -8,7 +8,7 @@ bio: I'm a data-lover, former roller derby athlete, all around
 #    institution: 
 #    year: 
 
-email: ""
+#email: ""
 
 interests:
 - R
