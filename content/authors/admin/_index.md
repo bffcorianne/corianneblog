@@ -9,14 +9,15 @@ bio: I'm a data-lover, former roller derby athlete, all around
 #    year: 2012
 
 email: ""
+
 interests:
 - R
 - cats
 - Storytelling
-- Visualizing all the things
-- Ethical tech
+- Data visualization
 - Technology and society
 - My So-Called Life
+
 name: Corianne Baker
 #organizations:
 #- name: Stanford University
