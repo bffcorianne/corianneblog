@@ -20,16 +20,16 @@ interests:
 
 name: Corianne Baker
 #organizations:
-#- name: Stanford University
+#- name: 
 #  url: ""
 role: 
 social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/yrbffanna
+#- icon: twitter
+#  icon_pack: fab
+#  link: https://twitter.com/
 - icon: github
   icon_pack: fab
   link: https://github.com/bffcorianne
@@ -41,8 +41,7 @@ social:
   link: https://keybase.io/corianne
 superuser: true
 # user_groups:
-#- Researchers
-#- Visitors
+
 ---
 
 I'm a data lover and former roller derby athlete. Creative and curious, I'm a pro-dot connector. 
