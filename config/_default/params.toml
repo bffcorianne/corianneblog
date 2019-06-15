@@ -60,10 +60,7 @@ contact_links = [
   {icon = "github", icon_pack = "fab", name = "Follow Me on Github", link = "https://www.github.com/bffcorianne"},
   {icon = "linkedin", icon_pack = "fab", name = "Let's Connect", link = "https://www.linkedin.com/in/coriannebaker"},
   {icon = "twitter", icon_pack = "fab", name = "Follow Me on Twitter", link = "https://twitter.com/yrbffanna"},
-#  {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
-  {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/corianne"},
-#  {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
-  # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
+  {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/corianne"}
   ]
 
 # Display a map.
