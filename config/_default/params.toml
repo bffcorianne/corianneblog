@@ -12,13 +12,13 @@ day_night = true
 font = "default"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = "A blog about R from Corianne"
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
 sharing_image = ""
 
 # Twitter username (without @). Used when a vistor shares your site on Twitter.
-twitter = ""
+# twitter = ""
 
 # Diplay a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
@@ -59,7 +59,7 @@ email = ""
 contact_links = [
   {icon = "github", icon_pack = "fab", name = "Follow Me on Github", link = "https://www.github.com/bffcorianne"},
   {icon = "linkedin", icon_pack = "fab", name = "Let's Connect", link = "https://www.linkedin.com/in/coriannebaker"},
-  {icon = "twitter", icon_pack = "fab", name = "Follow Me on Twitter", link = "https://twitter.com/yrbffanna"},
+#  {icon = "twitter", icon_pack = "fab", name = "Follow Me on Twitter", link = "https://twitter.com/"},
   {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/corianne"}
   ]
 

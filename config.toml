@@ -60,13 +60,8 @@ paginate = 10  # Number of items per page in paginated lists.
 #  organization = ""
 #  organization_url = ""
 #  avatar = "aph-salt-spring-zoom.jpg"
-  email = ""
-#  address = ""
-#  office_hours = ""
-#  phone = ""
-#  skype = ""
-#  telegram = ""
-  twitter = "yrbffanna"
+#  email = ""
+#  twitter = ""
   github = "bffcorianne"
 
   # Enable Keybase in Contact section by entering your keybase.io username.
@@ -110,10 +105,10 @@ paginate = 10  # Number of items per page in paginated lists.
     icon_pack = "fa"
     link = "//linkedin.com/in/coriannebaker/"
   
-  [[params.social]]
-    icon = "twitter"
-    icon_pack = "fa"
-    link = "//twitter.com/yrbffcorianne"
+#  [[params.social]]
+#    icon = "twitter"
+#    icon_pack = "fa"
+#    link = "//twitter.com/"
 
 [imaging]
   resampleFilter = "lanczos"
