@@ -50,11 +50,7 @@ time_format = "3:04 PM"
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "corianne@me.com"
-# phone = "888 888 88 88"
-# address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-
-#office_hours = 
+email = ""
 
 #appointment_url = "https://calendly.com"
 
